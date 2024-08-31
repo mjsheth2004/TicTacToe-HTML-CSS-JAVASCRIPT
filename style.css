@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(10, 203, 138);
+    justify-content: center;
+    align-items: center;
+    
+}
+nav {
+    box-sizing:border-box;
+    background-color: black;
+    color: white;
+    height:8vh;
+    width: 100vw;
+    font-size: 5vmin;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.welcome   {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.winner   {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 70vh;
+    gap: 5px;
+}
+
+.newgame    {
+    margin-top: -2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.new-btn {
+    font-size: 4vmin;  
+    cursor: pointer; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.5vmin;
+    border-radius: 1rem;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 70vh;
+    gap: 5px;
+}
+
+.boxes{
+    height:60vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vmin;
+    display: flex;
+}
+
+.box {
+
+    border: none;
+    border-radius: 1rem;
+    height: 18vmin;
+    width: 18vmin;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 12vmin;
+    background-color: rgb(189, 255, 205);
+    color: rgb(13, 2, 96);   
+    cursor: pointer;
+}
+
+.reset{
+    margin-top: -2vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    font-size: 4vmin;  
+    cursor: pointer; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.5vmin;
+    border-radius: 1rem;
+}
+
+.hide   {
+    display: none;
+}
+
+
+
+
